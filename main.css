@@ -1,0 +1,52 @@
+#banner {
+    display: flex;
+    flex-flow: column nowrap;
+    background: blue;
+}
+
+#banner .banner-container {
+    max-width: 1600px;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner .banner-container .banner-card {
+    max-width: 500px;
+    max-height: 672px;
+    min-width: 238px;
+    min-height: 320px;
+    width: 98%;
+    height: 98vh;
+    background: #71af65;
+}
+
+#banner nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#banner nav ul li {
+    list-style: none;
+}
+
+#banner nav ul li a {
+    text-decoration: none;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.text-start {
+    text-align: start;
+}
+
+.text-center {
+    width: 20px;
+    text-align: center;
+}
